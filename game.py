@@ -40,5 +40,5 @@ for level in range(1,10): #Her Seviye İçin Sayıyı 1 Arttır.
     end_timeyz = time.time()
     yzSure = end_timeyz - start_timeyz
     print(f"Yapay Zekanın Tahmini {tahmin_n[0]}")
-    print(f"Yapay Zekanın Yanıt Süresi: {yzSure}")
-    print(f"Senin Yanıt Süren: {peSure}")
+    print(f"Yapay Zekanın Yanıt Süresi: {yzSure} Saniye")
+    print(f"Senin Yanıt Süren: {peSure} Saniye")
