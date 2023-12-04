@@ -6,7 +6,7 @@ for level in range(1,10): #Her Seviye İçin Sayıyı 1 Arttır.
     y = [i for i in [random.randint(0, 60 * level) for _ in range(10)]] # 0 ile (60 * Seviye) arasında 10 adet rastgele sayı üret ve y listesine kaydet. 
     X = [2 * level * i + random.randint(-3, 3) for i in y ]  # X listesindeki sayıyı sırayla 2 ile, Seviye ile çarp ve -3 ile +3 arasında bir sayı ekle. X listesine kaydet.
     n = random.randint(0,60) # n = Gelecek sorunun cevabı.
-    t = 2 * l * n + random.randint(-3, 3) #t = Gelecek sorunun y değeri. 
+    t = 2 * level * n + random.randint(-3, 3) #t = Gelecek sorunun y değeri. 
     X.append(t) 
 
     print("Seviye: ", level)
